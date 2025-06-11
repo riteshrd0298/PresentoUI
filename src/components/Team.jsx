@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import "../CSS/main.css"
 import "aos/dist/aos.css";
 import AOS from "aos";
-
+import { team1,team2,team3,team4 } from '..';
 
 const Team = () => {
   useEffect(()=>{
@@ -25,21 +25,21 @@ const Team = () => {
         {
           [
             {
-              img:"public/img/team/team-1.jpg",
+              img:team1,
               name:"Walter White",
               Position:"Chief Executive Officer"
             },{
-               img:"public/img/team/team-2.jpg",
+               img:team2,
               name:"Sarah Jhonson",
               Position:"Product Manager"
             }
             ,{
-               img:"public/img/team/team-3.jpg",
+               img:team3,
               name:"William Anderson",
               Position:"CTO"
             }
             ,{
-               img:"public/img/team/team-4.jpg",
+               img:team4,
               name:"Amanda Jepson",
               Position:"Accountant"
             }

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "../CSS/main.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { product1,product2,product3,app1,app2,app3,books1,books2,books3,branding1,branding2,branding3 } from "..";
 
 
 const Portfolio = () => {
@@ -14,62 +15,62 @@ const Portfolio = () => {
   const Portfolio = [
     {
       id: 1,
-      img: "public/img/portfolio/app-1.jpg",
+      img: app1,
       category: "App",
     },
     {
       id: 2,
-      img: "public/img/portfolio/product-1.jpg",
+      img: product1,
       category: "Product",
     },
     {
       id: 3,
-      img: "public/img/portfolio/branding-1.jpg",
+      img: branding1,
       category: "Branding",
     },
     {
       id: 4,
-      img: "public/img/portfolio/books-1.jpg",
+      img: books1,
       category: "Books",
     },
     {
       id: 5,
-      img: "public/img/portfolio/app-2.jpg",
+      img: app2,
       category: "App",
     },
     {
       id: 6,
-      img: "public/img/portfolio/product-2.jpg",
+      img: product2,
       category: "Product",
     },
     {
       id: 7,
-      img: "public/img/portfolio/branding-2.jpg",
+      img: branding2,
       category: "Branding",
     },
     {
       id: 8,
-      img: "public/img/portfolio/books-2.jpg",
+      img: books2,
       category: "Books",
     },
      {
       id: 9,
-      img: "public/img/portfolio/app-3.jpg",
+      img: app3,
       category: "App",
     },
     {
       id: 10,
-      img: "public/img/portfolio/product-3.jpg",
+      img: product3,
       category: "Product",
     },
     {
       id: 11,
-      img: "public/img/portfolio/branding-3.jpg",
+      img: branding3,
       category: "Branding",
     },
     {
       id: 12,
-      img: "public/img/portfolio/books-3.jpg",
+      img: books3,
       category: "Books",
     }
   ];

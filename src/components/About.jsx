@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import PureCounter from "@srexi/purecounterjs";
+import { about } from "..";
 
 import { useState } from "react";
 
@@ -192,7 +193,7 @@ const About = () => {
                       </p>
                     </div>
                     <div className="col-lg-6 order-1 order-lg-2 text-center">
-                      <img src="public/img/working-3.jpg" alt="" className="img-fluid" />
+                      <img src={about} alt="" className="img-fluid" />
                     </div>
                   </div>
                 </div>

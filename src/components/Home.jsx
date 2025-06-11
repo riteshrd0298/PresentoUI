@@ -13,6 +13,8 @@ import Portfolio from "./Portfolio";
 import Team from "./Team";
 import Contact from "./Contact";
 import { hero } from "..";
+import { company1,company2,company3,company4,company5,company6,company7,company8 } from "..";
+import { testimonials1,testimonials2,testimonials3,testimonials4,testimonials5 } from "..";
 
 
 function Home() {
@@ -112,14 +114,15 @@ export const Clients = () => {
               className="mySwiper"
             >
               {[
-                "public/compnylogo1.png",
-                "public/compnylogo2.png",
-                "public/compnylogo3.png",
-                "public/compnylogo4.png",
-                "public/compnylogo5.png",
-                "public/compnylogo6.png",
-                "public/compnylogo7.png",
-                "public/compnylogo8.png",
+                company1,
+                company2,
+                company3,
+                company4,
+                company5,
+                company6,
+                company7,
+                company8
+
               ].map((img, index) => (
                 <SwiperSlide key={index} className="swiper-slide">
                   <img src={img} className="img-fluid" alt="" />
@@ -170,35 +173,35 @@ export const Testimonials = () => {
             >
               {[
                 {
-                  img: "public/img/testimonials/testimonials-1.jpg",
+                  img: testimonials1,
                   name: "Saul Goodman",
                   title: "Ceo & Founder",
 
                   text: "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
                 },
                 {
-                  img: "public/img/testimonials/testimonials-2.jpg",
+                  img: testimonials2,
                   name: "Sara Wilsson",
                   title: "Designer",
 
                   text: "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
                 },
                 {
-                  img: "public/img/testimonials/testimonials-3.jpg",
+                  img: testimonials3,
                   name: "Jena Karlis",
                   title: "Store Owner",
 
                   text: "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.",
                 },
                 {
-                  img: "public/img/testimonials/testimonials-4.jpg",
+                  img: testimonials4,
                   name: "Matt Brandon",
                   title: "Freelancer",
 
                   text: "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.",
                 },
                 {
-                  img: "public/img/testimonials/testimonials-5.jpg",
+                  img: testimonials5,
                   name: "John Larson",
                   title: "Entrepreneur",
 
