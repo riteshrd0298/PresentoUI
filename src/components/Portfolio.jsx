@@ -3,6 +3,7 @@ import "../CSS/main.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
+
 const Portfolio = () => {
   useEffect(() => {
     AOS.init({
@@ -13,62 +14,62 @@ const Portfolio = () => {
   const Portfolio = [
     {
       id: 1,
-      img: "src/assets/img/portfolio/app-1.jpg",
+      img: "public/img/portfolio/app-1.jpg",
       category: "App",
     },
     {
       id: 2,
-      img: "src/assets/img/portfolio/product-1.jpg",
+      img: "public/img/portfolio/product-1.jpg",
       category: "Product",
     },
     {
       id: 3,
-      img: "src/assets/img/portfolio/branding-1.jpg",
+      img: "public/img/portfolio/branding-1.jpg",
       category: "Branding",
     },
     {
       id: 4,
-      img: "src/assets/img/portfolio/books-1.jpg",
+      img: "public/img/portfolio/books-1.jpg",
       category: "Books",
     },
     {
       id: 5,
-      img: "src/assets/img/portfolio/app-2.jpg",
+      img: "public/img/portfolio/app-2.jpg",
       category: "App",
     },
     {
       id: 6,
-      img: "src/assets/img/portfolio/product-2.jpg",
+      img: "public/img/portfolio/product-2.jpg",
       category: "Product",
     },
     {
       id: 7,
-      img: "src/assets/img/portfolio/branding-2.jpg",
+      img: "public/img/portfolio/branding-2.jpg",
       category: "Branding",
     },
     {
       id: 8,
-      img: "src/assets/img/portfolio/books-2.jpg",
+      img: "public/img/portfolio/books-2.jpg",
       category: "Books",
     },
      {
       id: 9,
-      img: "src/assets/img/portfolio/app-3.jpg",
+      img: "public/img/portfolio/app-3.jpg",
       category: "App",
     },
     {
       id: 10,
-      img: "src/assets/img/portfolio/product-3.jpg",
+      img: "public/img/portfolio/product-3.jpg",
       category: "Product",
     },
     {
       id: 11,
-      img: "src/assets/img/portfolio/branding-3.jpg",
+      img: "public/img/portfolio/branding-3.jpg",
       category: "Branding",
     },
     {
       id: 12,
-      img: "src/assets/img/portfolio/books-3.jpg",
+      img: "public/img/portfolio/books-3.jpg",
       category: "Books",
     }
   ];

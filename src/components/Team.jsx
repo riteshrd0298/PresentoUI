@@ -25,21 +25,21 @@ const Team = () => {
         {
           [
             {
-              img:"src/assets/img/team/team-1.jpg",
+              img:"public/img/team/team-1.jpg",
               name:"Walter White",
               Position:"Chief Executive Officer"
             },{
-               img:"src/assets/img/team/team-2.jpg",
+               img:"public/img/team/team-2.jpg",
               name:"Sarah Jhonson",
               Position:"Product Manager"
             }
             ,{
-               img:"src/assets/img/team/team-3.jpg",
+               img:"public/img/team/team-3.jpg",
               name:"William Anderson",
               Position:"CTO"
             }
             ,{
-               img:"src/assets/img/team/team-4.jpg",
+               img:"public/img/team/team-4.jpg",
               name:"Amanda Jepson",
               Position:"Accountant"
             }

@@ -39,7 +39,7 @@ export const Hero = () => {
   return (
     <>
       <section id="hero" className="hero section ">
-        <img src="src/assets/mainimg.jpg" alt="Hero section" />
+        <img src="public/mainimg.jpg" alt="Hero section" />
 
         <div className="container">
           <div className="row">
@@ -110,14 +110,14 @@ export const Clients = () => {
               className="mySwiper"
             >
               {[
-                "src/assets/compnylogo1.png",
-                "src/assets/compnylogo2.png",
-                "src/assets/compnylogo3.png",
-                "src/assets/compnylogo4.png",
-                "src/assets/compnylogo5.png",
-                "src/assets/compnylogo6.png",
-                "src/assets/compnylogo7.png",
-                "src/assets/compnylogo8.png",
+                "public/compnylogo1.png",
+                "public/compnylogo2.png",
+                "public/compnylogo3.png",
+                "public/compnylogo4.png",
+                "public/compnylogo5.png",
+                "public/compnylogo6.png",
+                "public/compnylogo7.png",
+                "public/compnylogo8.png",
               ].map((img, index) => (
                 <SwiperSlide key={index} className="swiper-slide">
                   <img src={img} className="img-fluid" alt="" />
@@ -168,35 +168,35 @@ export const Testimonials = () => {
             >
               {[
                 {
-                  img: "src/assets/img/testimonials/testimonials-1.jpg",
+                  img: "public/img/testimonials/testimonials-1.jpg",
                   name: "Saul Goodman",
                   title: "Ceo & Founder",
 
                   text: "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
                 },
                 {
-                  img: "src/assets/img/testimonials/testimonials-2.jpg",
+                  img: "public/img/testimonials/testimonials-2.jpg",
                   name: "Sara Wilsson",
                   title: "Designer",
 
                   text: "Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.",
                 },
                 {
-                  img: "src/assets/img/testimonials/testimonials-3.jpg",
+                  img: "public/img/testimonials/testimonials-3.jpg",
                   name: "Jena Karlis",
                   title: "Store Owner",
 
                   text: "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.",
                 },
                 {
-                  img: "src/assets/img/testimonials/testimonials-4.jpg",
+                  img: "public/img/testimonials/testimonials-4.jpg",
                   name: "Matt Brandon",
                   title: "Freelancer",
 
                   text: "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.",
                 },
                 {
-                  img: "src/assets/img/testimonials/testimonials-5.jpg",
+                  img: "public/img/testimonials/testimonials-5.jpg",
                   name: "John Larson",
                   title: "Entrepreneur",
 

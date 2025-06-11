@@ -192,7 +192,7 @@ const About = () => {
                       </p>
                     </div>
                     <div className="col-lg-6 order-1 order-lg-2 text-center">
-                      <img src="src/assets/img/working-3.jpg" alt="" className="img-fluid" />
+                      <img src="public/img/working-3.jpg" alt="" className="img-fluid" />
                     </div>
                   </div>
                 </div>
