@@ -12,6 +12,8 @@ import Servcies from "./Servcies";
 import Portfolio from "./Portfolio";
 import Team from "./Team";
 import Contact from "./Contact";
+import { hero } from "..";
+
 
 function Home() {
   return (
@@ -39,7 +41,7 @@ export const Hero = () => {
   return (
     <>
       <section id="hero" className="hero section ">
-        <img src="public/mainimg.jpg" alt="Hero section" />
+        <img src={hero} alt="Hero section" />
 
         <div className="container">
           <div className="row">
@@ -124,7 +126,7 @@ export const Clients = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div class="swiper-pagination"></div>
+            <div className="swiper-pagination"></div>
           </div>
         </div>
       </section>
@@ -211,11 +213,11 @@ export const Testimonials = () => {
                     <h3>{testimonial.name}</h3>
                     <h4>{testimonial.title}</h4>
                     <div className="stars">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
+                      <i className="bi bi-star-fill"></i>
+                      <i className="bi bi-star-fill"></i>
+                      <i className="bi bi-star-fill"></i>
+                      <i className="bi bi-star-fill"></i>
+                      <i className="bi bi-star-fill"></i>
                     </div>
                     <p>
                       <i className="bi bi-quote quote-icon-left"></i>
