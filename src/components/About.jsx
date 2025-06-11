@@ -106,7 +106,7 @@ const About = () => {
       </section>
 
       {/* section stats */}
-      <section id="stats" className="stats section">
+      <section id="stats" className="stats section ">
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4">
             {data.map((val, index) => {
@@ -129,7 +129,7 @@ const About = () => {
       </section>
 
       {/* /* tab section */}
-      <section id="tabs" className="tabs section">
+      <section id="tabs" className="tabs section " style={{marginTop:"-50px"}}>
         <div className="container">
           <ul className="nav nav-tabs row d-flex" data-aos="fade-up" data-aos-delay="100">
             {[
@@ -150,7 +150,7 @@ const About = () => {
                 label: "Nostrum qui dile node",
               },
             ].map((tab, idx) => (
-              <li className="nav-item col-3" key={idx}>
+              <li className="nav-item  col-md-3 mt-2" key={idx}>
                 <a
                   className={`nav-link ${activeTab === idx ? "active show" : ""}`}
                   data-bs-toggle="tab"

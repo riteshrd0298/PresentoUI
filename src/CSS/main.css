@@ -360,6 +360,7 @@ section,
 
 @media (max-width: 575px) {
   .tabs .nav-link {
+   
     padding: 15px;
   }
 
